@@ -19,13 +19,13 @@ int main () {
       }
     }
 
-      for(i=0;i<N;i++){
-        for(j=0;j<M;j++){
-          c[i][j] = a[i][j] + b[i][j];
-	  printf("%3d",c[i][j]);
-      	}
-      	printf("\n");
-      }
+     for(i=0;i<N;i++){
+       for(j=0;j<M;j++){
+         c[i][j] = a[i][j] + b[i][j];
+	 printf("%3d",c[i][j]);
+       }
+       printf("\n");
+     }
 
 
   return 0;
